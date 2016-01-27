@@ -1,0 +1,32 @@
+{
+  "name": "reping",
+  "version": "0.1.0",
+  "author": "Taylor Silenzio <tsilenzio@gmail.com>",
+  "homepage": "http://github.com/tsilenzio/node-reping",
+  "description": "IPv4 Monitoring with IPv6 and HTTP support coming soon",
+  "keywords": [
+    "ping",
+    "uptime",
+    "downtime",
+    "monitor",
+    "monitoring"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "pin": "^0.3.0",
+    "ping-lite": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.4.4",
+    "sinon": "^1.17.2"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/tsilenzio/node-reping.git"
+  },
+  "license": "MIT"
+}
